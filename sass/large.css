@@ -1,0 +1,184 @@
+.header {
+  top: 128px;
+  width: 86.4vw;
+  height: 652px;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  left: 9.4vw;
+  margin-bottom: 0;
+}
+
+.header .h1 {
+  width: 45.74%;
+  padding-top: 80px;
+  padding-bottom: 34px;
+}
+
+.header .video {
+  height: calc(100vw * 0.44 * 0.864 * 0.7022);
+  width: 500px;
+  width: 44%;
+  top: 0;
+  right: 0;
+  left: auto;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+.header .downArrow {
+  left: calc(40.6vw - 60px/2);
+}
+
+.header .social-media {
+  right: 35px;
+  top: auto;
+  bottom: 72px;
+}
+
+.header .subscribe {
+  width: 40vw;
+  margin-top: 40px;
+}
+
+.modalText i {
+  padding: 16px 16px 0px 0px;
+}
+
+.modalText .name {
+  font-size: 40px;
+  line-height: 34px;
+}
+
+.modalText .describe {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.top img {
+  left: calc( 16px + 8.5vw);
+}
+
+.top .links {
+  right: calc( 16px + 8.5vw);
+}
+
+.background {
+  height: 120vw;
+}
+
+.background .bg {
+  background-image: url("../img1.png");
+  top: 126px;
+  z-index: -1;
+}
+
+.background .shape1 {
+  top: -60px;
+  left: 0px;
+  overflow: visible;
+}
+
+.background .shape2 {
+  left: -108px;
+  top: 87px;
+}
+
+.background .mask {
+  width: 1440px;
+  height: 908px;
+  top: 0px;
+  left: 0px;
+}
+
+.background .mask .inside {
+  left: -10%;
+  top: -48.5%;
+  -webkit-transform: rotate(14deg) skew(-45deg);
+          transform: rotate(14deg) skew(-45deg);
+}
+
+.content {
+  margin-top: 295px;
+  height: 546px;
+}
+
+.content .peopleStatic {
+  margin-top: 20px;
+  width: 82%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .content .peopleStatic {
+    width: 100%;
+  }
+}
+
+.content .peopleStatic .person2 {
+  left: 37%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.content .peopleStatic .person3 {
+  left: 63%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.content .peopleStatic .person4 {
+  right: 0;
+}
+
+.content .peopleStatic .person1, .content .peopleStatic .person2, .content .peopleStatic .person3, .content .peopleStatic .person4 {
+  display: inline;
+  width: 270px;
+  height: 378px;
+}
+
+.contact {
+  position: relative;
+  top: 22px;
+  margin-top: -22px;
+  z-index: -1;
+}
+
+.footer {
+  z-index: 1;
+}
+
+.footer .section1 button {
+  right: 137px;
+}
+
+.footer .section1 img {
+  top: 48px;
+  left: 135px;
+}
+
+.footer .section2b {
+  width: 827px;
+  width: 900px;
+  left: calc( 50% - 827px/2);
+}
+
+.footer .section2b p:nth-child(1) {
+  margin-right: 20px;
+  width: 200px;
+}
+
+.footer .section2b p:nth-child(3) {
+  margin-right: -17px;
+  margin-left: -6px;
+  width: 200px;
+}
+
+.footer .section2b p:nth-child(5) {
+  margin-right: -7px;
+  width: 200px;
+}
+
+.footer .section2b p:nth-child(7) {
+  margin-left: 3px;
+  width: 200px;
+}
+/*# sourceMappingURL=large.css.map */

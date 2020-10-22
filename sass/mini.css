@@ -1,0 +1,26 @@
+.header .downArrow {
+  top: 348px;
+}
+
+.header .video {
+  height: calc(100vw * 0.9 * 0.8 * 0.7022);
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.content {
+  margin-top: 18vw;
+}
+
+@media only screen and (min-width: 532px) {
+  .content {
+    margin-top: 28vw;
+  }
+}
+
+.content .people {
+  width: 75%;
+}
+/*# sourceMappingURL=mini.css.map */

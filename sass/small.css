@@ -1,0 +1,68 @@
+.header {
+  height: 805px;
+}
+
+.header .h1 {
+  width: 70%;
+}
+
+.header .h1 h1 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.header .video button {
+  left: calc( 50% -  63px/2);
+  top: calc( 50% - 63px/2);
+}
+
+.header .video button .circle {
+  width: 63px;
+  height: 63px;
+}
+
+.header .video button .circle .triangle {
+  left: calc( 50% -  13px/2);
+  top: calc( 50% -  20px/2);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid white;
+}
+
+.content {
+  margin-top: calc(55vw - 110px);
+}
+
+.content .peopleStatic {
+  width: 90%;
+}
+
+.content .peopleStatic .person1, .content .peopleStatic .person2, .content .peopleStatic .person3, .content .peopleStatic .person4 {
+  width: 165px;
+}
+
+.content .peopleStatic .person2 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.content .peopleStatic .person3 {
+  display: inline;
+  right: 0;
+}
+
+.content .peopleStatic .person1 {
+  display: none;
+}
+
+.content .slider {
+  display: none;
+}
+
+.content .peopleStatic {
+  display: block;
+}
+/*# sourceMappingURL=small.css.map */
